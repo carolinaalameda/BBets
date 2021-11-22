@@ -41,6 +41,7 @@ The function will be given a class_size by number of students, odds, and Number_
 ## the standard deviation and a 95% confidence interval for their earnings?
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
+
 ```{r}
 Data1<-array(dim = 1000)
 Data1<-as.numeric(Data1)
@@ -49,8 +50,8 @@ for(i in 1:1000){
 }
 hist(Data1)
 sdata1<-sort(Data1)
-print(sdata1[25])
-print(sdata1[975])
+low<-sdata1[25]
+high<-sdata1[975]
 ```
 
 The 95% confidence interval is `r low` to `r high`
