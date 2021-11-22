@@ -84,13 +84,28 @@ As per the data above, I think the fair odds would be about 4.39.
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+Data3<-array(dim = 200)
+Data3<-as.numeric(Data3)
+for(i in 1:200){
+  Data3[i] = Carolina(numClass = 29)
+}
+sdata3<-sort(Data3)
+hist(sdata3)
+abline(v=sdata3[5], col="red")
+abline(v=sdata3[195], col="green")
+low<-sdata3[5]
+high<-sdata3[195]
+```
 
+In the plot above, we can see that to make the 2:1 bets fair the number of students in a class should be 29. We resulted to this number of students per class by narrowing down the number of students in a class. The less students in the class the less money the teacher makes.
 
-
-
-
+In the plot we added a red and green line. These lines represent the 95% confidence interval of his earnings.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
+
+
+
 
