@@ -65,17 +65,17 @@ The code block below explains the array containing 1000 elements in it. Each ele
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
 ```{r}
-Data2<-array(dim = 1000)
+Data2<-array(dim = 200)
 Data2<-as.numeric(Data2)
-for(i in 1:1000){
+for(i in 1:200){
   Data2[i] = Carolina(odds= 4.39)
 }
 sdata2<-sort(Data2)
 hist(sdata2)
 abline(v=sdata2[5], col="red")
 abline(v=sdata2[195], col="green")
-low<-sdata1[55]
-high<-sdata1[195]
+low<-sdata2[5]
+high<-sdata2[195]
 ```
 
 As per the data above, I think the fair odds would be about 4.39.
