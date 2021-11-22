@@ -106,6 +106,6 @@ In the plot we added a red and green line. These lines represent the 95% confide
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-
+To conclude, the odd, number of class, and/ or countoDo made a difference to the pay of Browlow. To have a higher pay after 637 bets the fair odds would be 4.39. To be able to make the 2:1 bets fair the number of students in a class should be 29. The less students in the class the less money the teacher makes. 
 
 
